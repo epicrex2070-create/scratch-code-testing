@@ -1,19 +1,21 @@
 body {
     margin: 0;
     overflow: hidden;
-    background: #87ceeb;
+    background: #180022;
+    image-rendering: pixelated;
 }
 
 canvas {
     display: block;
+    image-rendering: pixelated;
 }
 
 #ui {
     position: absolute;
     top: 10px;
     left: 10px;
-    color: white;
-    font-family: Arial, sans-serif;
+    color: #ff66ff;
+    font-family: monospace;
     font-size: 20px;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 0 0 10px #ff00ff;
 }
